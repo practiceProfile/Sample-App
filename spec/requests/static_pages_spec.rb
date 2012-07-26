@@ -35,6 +35,7 @@ describe "Static pages" do
   	it "should have the right title" do
   		visit "/static_pages/about"
   		page.should have_selector('title', text: "Aaron Sample App | About Us")
+  		
   	end
   end
 
